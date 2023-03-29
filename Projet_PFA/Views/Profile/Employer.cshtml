@@ -1,0 +1,53 @@
+﻿@model Projet_PFA.Models.Employer
+@{
+    ViewData["Title"] = "Employer Profile";
+}
+@{
+    Layout = "FormsTemplate";
+}
+<div class="text-center">
+    <h1 class="h4 text-gray-900 mb-4">Profile</h1>
+</div>
+<form class="user" method="post" action="#">
+    <div class="form-group row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+            <label>Prenom :</label>
+            <input asp-for="Prenom" class="form-control form-control-user" id="exampleFirstName"
+                   placeholder="Prénom" readonly>
+        </div>
+        <div class="col-sm-6">
+            <label>Nom :</label>
+            <input asp-for="Nom" class="form-control form-control-user" id="exampleLastName"
+                   placeholder="Nom" readonly>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Date de naissance :</label>
+        <input asp-for="DateNaissance" class="form-control form-control-user" id="exampleInputDateNaissance" readonly>
+    </div>
+    <div class="form-group">
+        <label>CIN :</label>
+        <input asp-for="CIN" class="form-control form-control-user" placeholder="CIN" readonly>
+    </div>
+    <div class="form-group">
+        <label>Adress :</label>
+        <input asp-for="Adress" class="form-control form-control-user" id="exampleInputAddress"
+               placeholder="Address">
+    </div>
+    <div class="form-group">
+        <label>Telephone :</label>
+        <input asp-for="Tel" class="form-control form-control-user" id="exampleInputTelephone"
+               placeholder="Telephone">
+    </div>
+    <div class="form-group">
+        <label>RIB :</label>
+        <input asp-for="RIB" class="form-control form-control-user"
+               placeholder="RIB">
+    </div>
+    <div class="form-group">
+        <label>Salaire :</label>
+        <input asp-for="Salaire" class="form-control form-control-user" id="exampleInputSalaire"
+               placeholder="Salaire">
+    </div>
+    <input type="submit" class="btn btn-primary btn-user btn-block" value=" Modifier ">
+</form>

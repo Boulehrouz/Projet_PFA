@@ -1,0 +1,148 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Projet_PFA
+build_property.RootNamespace = Projet_PFA
+build_property.ProjectDir = C:\Users\Maryem\Downloads\pfa-main\pfa-main\Projet_PFA\Projet_PFA\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Maryem\Downloads\pfa-main\pfa-main\Projet_PFA\Projet_PFA
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Absence/AddAbsn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJzZW5jZVxBZGRBYnNuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Absence/AffichageListe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJzZW5jZVxBZmZpY2hhZ2VMaXN0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Absence/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJzZW5jZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Changepsd/Change.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbmdlcHNkXENoYW5nZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Changepsd/test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbmdlcHNkXHRlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Employe/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Employe/AffichageListe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxBZmZpY2hhZ2VMaXN0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Employe/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Login/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Login/Emp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRW1wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Login/Sup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU3VwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Penalite/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuYWxpdGVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Penalite/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuYWxpdGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Penalite/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuYWxpdGVcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Profile/Directeur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxEaXJlY3RldXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Profile/Employer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxFbXBsb3llci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Profile/Superviseur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxTdXBlcnZpc2V1ci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Retard/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0YXJkXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Retard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0YXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Retard/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0YXJkXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Shared/FormsTemplate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvcm1zVGVtcGxhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Shared/Template.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRlbXBsYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Supplementaires/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxlbWVudGFpcmVzXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Supplementaires/AffichageListe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxlbWVudGFpcmVzXEFmZmljaGFnZUxpc3RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Supplementaires/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxlbWVudGFpcmVzXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maryem/Downloads/pfa-main/pfa-main/Projet_PFA/Projet_PFA/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-48n8p3a3dy

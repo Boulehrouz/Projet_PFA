@@ -1,0 +1,38 @@
+﻿@model Projet_PFA.Models.Supplementaire
+@{
+    ViewData["Title"] = "Supplementaire";
+}
+@{
+    Layout = "FormsTemplate";
+}
+<div class="text-center">
+    <h1 class="h4 text-gray-900 mb-4"></h1>
+</div>
+<form class="user" method="post" action="#">
+    <fieldset>
+        <legend>Formulaire de <b>Prime</b></legend>
+        <div class="form-group row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <label>Duree : </label>
+                <input asp-for="Duree" class="form-control form-control-user" />
+
+                <div class="col-sm-6">
+                    <label>Prime : </label>
+                    <input asp-for="Prime" class="form-control form-control-user" />
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Unite : </label>
+                <select  asp-for="Unite" class="form-control form-control-user">
+                    <option value="Heure">Heure</option>
+                    <option value="Minute">Minute</option>
+                    <option value="Jour">Jour</option>
+                </select>
+            </div>
+            <input type="submit" class="btn btn-primary btn-user btn-block" value=" Ajouter Prime ">
+    </fieldset>
+
+    
+
+</form>

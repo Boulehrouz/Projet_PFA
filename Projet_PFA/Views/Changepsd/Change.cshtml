@@ -1,0 +1,28 @@
+﻿@model Projet_PFA.Models.Mdp
+@{
+    ViewData["Title"] = "Change Password";
+}
+@{
+    Layout = "FormsTemplate";
+}
+
+<form class="user" method="post" action="#">
+    <div class="form-group">
+        <label>Old Password : </label>
+        <input asp-for="Password" class=" form-control form-control-user"
+               id="exampleInputPassword" placeholder="Password" />
+    </div>
+    <div class="form-group">
+        <label>New Password : </label>
+        <input asp-for="NewPassword" class=" form-control form-control-user"
+               id="exampleInputPassword" placeholder="New Password" />
+    </div>
+    <div class="form-group">
+        <label>Confirm Password : </label>
+        <input asp-for="ConfirmerPassword" class=" form-control form-control-user"
+               id="exampleInputPassword" placeholder="Confirm Password" />
+    </div>
+
+    <input type="submit" class="btn btn-primary btn-user btn-block" value="Update" />
+
+</form>

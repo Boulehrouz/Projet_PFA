@@ -1,0 +1,31 @@
+﻿@model List<Projet_PFA.Models.Retard>
+@{
+    ViewData["Title"] = "Liste Retard";
+}
+<table class="table"> 
+    <tr>
+        <th>id </th>
+        <th>Date </th>
+        <th>Duree</th>
+        <th>SuperviseurId</th>
+        <th>EmployeId</th>
+        <th>Modifier</th>
+        <th>Supprimer</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Date</td>
+            <td>@item.Duree</td>
+            <td>@item.SuperviseurId</td>
+            <td>@item.EmployerId</td>
+            <td>
+                <a asp-controller="Retard" asp-action="Update" asp-route-id="@item.Id" >Modifier</a>
+            </td>
+            <td>
+                <a onclick="return confirm('Etes vous sur de vouloir supprimer?');" asp-controller="Retard" asp-action="delete" asp-route-id="@item.Id">Supprimer</a>
+            </td>
+        </tr> 
+    }
+</table>
