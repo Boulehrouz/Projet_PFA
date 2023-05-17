@@ -2,23 +2,18 @@
 @{
     ViewData["Title"] = "Supplementaire";
 }
-@{
-    Layout = "FormsTemplate";
-}
-<div class="text-center">
-    <h1 class="h4 text-gray-900 mb-4"></h1>
-</div>
+
+<h3 class="Title">Ajouter Une Supplementaire</h3>
+
 <form class="user" method="post" action="#">
-    <fieldset>
-        <legend>Formulaire de <b>Prime</b></legend>
         <div class="form-group row">
             <div class="col-sm-6 mb-3 mb-sm-0">
                 <label>Duree : </label>
                 <input asp-for="Duree" class="form-control form-control-user" />
 
                 <div class="col-sm-6">
-                    <label>Prime : </label>
-                    <input asp-for="Prime" class="form-control form-control-user" />
+                    <label >Prime : </label>
+                <input asp-for="Prime" class="form-control form-control-user" />
 
                 </div>
             </div>
@@ -30,9 +25,20 @@
                     <option value="Jour">Jour</option>
                 </select>
             </div>
-            <input type="submit" class="btn btn-primary btn-user btn-block" value=" Ajouter Prime ">
-    </fieldset>
-
-    
-
+        <input type="submit" class="btn btn-primary btn-user btn-block" value=" Ajouter Prime " class="prime">
+            </div>
+  
 </form>
+
+<style>
+    .Title {
+        text-align: center;
+        color: #000000;
+        text-decoration: underline;
+        margin-bottom: 40px;
+    }
+    .prime
+    {
+        margin-bottom:70px;
+    }
+</style>

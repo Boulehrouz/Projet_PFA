@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maryem\\Downloads\\pfa-main\\pfa-main\\Projet_PFA\\Projet_PFA\\Projet_PFA.csproj": {}
+    "C:\\Users\\pc\\source\\repos\\Projet_PFA\\Projet_PFA\\Projet_PFA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maryem\\Downloads\\pfa-main\\pfa-main\\Projet_PFA\\Projet_PFA\\Projet_PFA.csproj": {
+    "C:\\Users\\pc\\source\\repos\\Projet_PFA\\Projet_PFA\\Projet_PFA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maryem\\Downloads\\pfa-main\\pfa-main\\Projet_PFA\\Projet_PFA\\Projet_PFA.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\Projet_PFA\\Projet_PFA\\Projet_PFA.csproj",
         "projectName": "Projet_PFA",
-        "projectPath": "C:\\Users\\Maryem\\Downloads\\pfa-main\\pfa-main\\Projet_PFA\\Projet_PFA\\Projet_PFA.csproj",
-        "packagesPath": "C:\\Users\\Maryem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maryem\\Downloads\\pfa-main\\pfa-main\\Projet_PFA\\Projet_PFA\\obj\\",
+        "projectPath": "C:\\Users\\pc\\source\\repos\\Projet_PFA\\Projet_PFA\\Projet_PFA.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\source\\repos\\Projet_PFA\\Projet_PFA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maryem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

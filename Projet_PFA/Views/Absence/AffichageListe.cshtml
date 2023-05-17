@@ -2,6 +2,8 @@
 @{
     ViewData["Title"] = "Liste Des Absences";
 }
+<h3 class="Title"> Liste Des Absences</h3>
+
 <div class="table-responsive">
     <table class="table">
         <tr>
@@ -30,4 +32,17 @@
 
         }
     </table>
+    <a asp-controller="Absence" asp-action="AffichageListe" asp-route-id="1" class="btn btn-primary btn-user">Liste d'aujourd'hui</a>
+    <a asp-controller="Absence" asp-action="AffichageListe" asp-route-id="2" class="btn btn-primary btn-user">Liste d'hier</a>
+    <a asp-controller="Absence" asp-action="AffichageListe" asp-route-id="3" class="btn btn-primary btn-user">Liste de la dernier semaine</a>
+    <a asp-controller="Absence" asp-action="AffichageListe" asp-route-id="4" class="btn btn-primary btn-user">Liste de ce mois</a>
 </div>
+<style>
+    .Title
+    {
+        text-align:center;
+        color: #000000;
+        text-decoration: underline;
+        margin-bottom: 40px;
+    }
+</style>

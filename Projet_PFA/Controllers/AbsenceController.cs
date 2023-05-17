@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Projet_PFA.Models;
 
 namespace Projet_PFA.Controllers
@@ -38,9 +39,32 @@ namespace Projet_PFA.Controllers
             return RedirectToAction("AffichageListe");//une fois y ajouter un employer yedih la liste dyal les employes
            
         }
-        public IActionResult AffichageListe()
+        [Route("Absence/AffichageListe/{id?}")]
+        public IActionResult AffichageListe(int id)
         {
-            List<Absence> Absences = db.Absence.ToList();//kanjibo la liste dyal les absences
+            
+            List<Absence> Absences = db.Absence.Include(s => s.Superviseur).Include(e => e.Employer).ToList();
+            if(id==1)
+            {
+                DateTime date = DateTime.Parse(DateTime.Now.Year + "-" + DateTime.Now.Month + "-" + DateTime.Now.Day);
+                Absences = db.Absence.Where(a=>a.Date==date).Include(s => s.Superviseur).Include(e => e.Employer).ToList();
+            }
+            else if (id == 2)
+            {
+                DateTime date = DateTime.Parse(DateTime.Now.Year + "-" + DateTime.Now.Month + "-" + DateTime.Now.AddDays(-1).Day);
+                Absences = db.Absence.Where(a => a.Date == date).Include(s => s.Superviseur).Include(e => e.Employer).ToList();
+            }
+            else if (id == 3)
+            {
+                DateTime date = DateTime.Parse(DateTime.Now.Year + "-" + DateTime.Now.Month + "-" + DateTime.Now.Day);
+                DateTime week = DateTime.Parse(DateTime.Now.Year + "-" + DateTime.Now.Month + "-" + DateTime.Now.AddDays(-7).Day);
+                Absences = db.Absence.Where(a => a.Date <= date && a.Date >= week).Include(s => s.Superviseur).Include(e => e.Employer).ToList();
+            }
+            else if (id == 4)
+            {
+                DateTime date = DateTime.Parse(DateTime.Now.Year + "-" + DateTime.Now.Month + "-" + DateTime.Now.Day);
+                Absences = db.Absence.Where(a => a.Date.Value.Month == date.Month).Include(s => s.Superviseur).Include(e => e.Employer).ToList();
+            }
             return View(Absences);
         }
         [Route("Absence/Update/{id}")]//chemin url

@@ -12,24 +12,12 @@ namespace Projet_PFA.Controllers
         {
             this.db = db;
         }
-        public IActionResult Admin()
-        {
-            return View();
-        }
-        public IActionResult Sup()
-        {
-            return View();
-        }
-        public IActionResult Emp()
-        {
-            return View();
-        }
-        public IActionResult Login()
+        public IActionResult Index()
         {
             return View();
         }
         [HttpPost]
-        public IActionResult Login(Login u)
+        public IActionResult Index(Login u)
         {
             string msg = "";
             if (ModelState.IsValid)
@@ -42,21 +30,21 @@ namespace Projet_PFA.Controllers
                     HttpContext.Session.SetString("Name",d.Nom  + " " + d.Prenom );
                     HttpContext.Session.SetString("Role", "Directeur");
                     HttpContext.Session.SetString("Id", d.Id.ToString());
-                    return RedirectToAction("Admin");
+                    return RedirectToAction("Directeur","Profile");
                 }
                 else if(e !=null)
                 {
                     HttpContext.Session.SetString("Name", e.Nom + " " + e.Prenom);
                     HttpContext.Session.SetString("Role", "Employer");
                     HttpContext.Session.SetString("Id", e.Id.ToString());
-                    return RedirectToAction("Emp");
+                    return RedirectToAction("Employer","Profile");
                 }
                 else if (s != null)
                 {
                     HttpContext.Session.SetString("Name", s.Nom + " " + s.Prenom);
                     HttpContext.Session.SetString("Role", "Superviseur");
                     HttpContext.Session.SetString("Id", s.Id.ToString());
-                    return RedirectToAction("Sup");
+                    return RedirectToAction("Superviseur","Profile");
                 }
                 else msg = "Login/Password incorrect!!";
             }

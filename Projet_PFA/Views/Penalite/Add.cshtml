@@ -2,19 +2,18 @@
 @{
     ViewData["Title"] = "Ajouter penalite";
 }
-@{
-    Layout = "FormsTemplate";
-}
+
 <div class="text-center">
     <h1 class="h4 text-gray-900 mb-4"></h1>
 </div>
+<h3 class="Title">Ajouter Une  Pinalité</h3>
 <form class="user" method="post" action="#">
         <div class="form-group row">
             <div class="col-sm-6 mb-3 mb-sm-0">
                 <label>Duree : </label>
                 <input asp-for="Duree" class="form-control form-control-user" />
 
-                <div class="col-sm-6">
+                <div class="col-sm-6 mb-3 mb-sm-0">
                 <label>Sanction : </label>
                     <input asp-for="Sanction" class="form-control form-control-user" />
 
@@ -29,4 +28,13 @@
                 </select>
             </div>
             <input type="submit" class="btn btn-primary btn-user btn-block" value="Add">
+         </div>
 </form>
+<style>
+    .Title {
+        text-align: center;
+        color: #000000;
+        text-decoration: underline;
+        margin-bottom: 40px;
+    }
+</style>

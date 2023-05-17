@@ -39,7 +39,7 @@ namespace Projet_PFA.Controllers
                             db.SaveChanges();
                         }
                     }
-                    return RedirectToAction("test");
+                    return RedirectToAction("Directeur", "Profile");
                 }
                     
                 
@@ -55,8 +55,8 @@ namespace Projet_PFA.Controllers
                                 db.SaveChanges();
                             }
                         }
-                        return RedirectToAction("test");
-                    
+                    return RedirectToAction("Employer", "Profile");
+
                 }
                 else if (role == "Superviseur")
                 {
@@ -70,7 +70,7 @@ namespace Projet_PFA.Controllers
                                 db.SaveChanges();
                             }
                         }
-                        return RedirectToAction("test");
+                    return RedirectToAction("Superviseur", "Profile");
                 }
             }
             

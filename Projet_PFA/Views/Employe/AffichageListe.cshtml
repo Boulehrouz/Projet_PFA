@@ -2,45 +2,79 @@
 @{
     ViewData["Title"] = "Liste Employers";
 }
-<table class="table"> 
-    <tr>
-        <th>id </th>
-        <th>Nom </th>
-        <th>Prenom</th>
-        <th>CIN</th>
-        <th>Date Naissance</th>
-        <th>Adress</th>
-        <th>Telephone</th>
-        <th>Rib</th>
-        <th>Salaire</th>
-        <th>Superviseur </th>
-        <th>Modifier</th>
-        <th>Supprimer</th>
-        <th>Ajouter Absence</th>
-    </tr>
-    @foreach (var item in Model)//Model radi tjibla la liste li raha mdowzinha f return view 
-    {
-        <tr>
-            <td>@item.Id</td>
-            <td>@item.Nom</td>
-            <td>@item.Prenom</td>
-            <td>@item.CIN</td>
-            <td>@item.DateNaissance</td>
-            <td>@item.Adress</td>
-            <td>@item.Tel</td>
-            <td>@item.RIB</td>
-            <td>@item.Salaire</td>
-            <td>@item.Superviseur</td>
-            <td>
-                <a asp-controller="Employe" asp-action="Update" asp-route-id="@item.Id" >Modifier</a>
-            </td>
-            <td>
-                <a asp-controller="Employe" asp-action="delete" asp-route-id="@item.Id">Supprimer</a>
-            </td>
-            <td>
-                <a asp-controller="Absence" asp-action="AddAbsn" asp-route-id="@item.Id">Ajouter Absence</a>
-            </td>
-        </tr>
-        
-    }
+<h3 class="Title">Liste Des Employés</h3>
+<div class="table-responsive">
+    <table class="table" id="tbl">
+       <thead>
+            <tr>
+                <th>id </th>
+                <th>Nom </th>
+                <th>Prenom</th>
+                <th>CIN</th>
+                <th>Date Naissance</th>
+                <th>Adress</th>
+                <th>Telephone</th>
+                <th>Rib</th>
+                <th>Salaire</th>
+                <th>Superviseur </th>
+                <th>Modifier</th>
+                <th>Supprimer</th>
+                <th>Ajouter Absence</th>
+            </tr>
+       </thead>
+       <tbody>
+            @foreach (var item in Model)//Model radi tjibla la liste li raha mdowzinha f return view
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Nom</td>
+                    <td>@item.Prenom</td>
+                    <td>@item.CIN</td>
+                    <td>@item.DateNaissance</td>
+                    <td>@item.Adress</td>
+                    <td>@item.Tel</td>
+                    <td>@item.RIB</td>
+                    <td>@item.Salaire</td>
+                    <td>@item.Superviseur</td>
+                    <td>
+                        <a asp-controller="Employe" asp-action="Update" asp-route-id="@item.Id">Modifier</a>
+                    </td>
+                    <td>
+                        <a asp-controller="Employe" asp-action="delete" asp-route-id="@item.Id">Supprimer</a>
+                    </td>
+                    <td>
+                        <a asp-controller="Absence" asp-action="AddAbsn" asp-route-id="@item.Id">Ajouter Absence</a>
+                    </td>
+                </tr>
+
+            }
+       </tbody>
+
 </table>
+</div>
+<style>
+    .Title {
+        text-align: center;
+        color: #000000;
+        text-decoration: underline;
+        margin-bottom: 40px;
+    }
+</style>
+
+  @section scripts
+  {
+    <script src="~\js\code.jquery.comjquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.html5.min.js"></script>
+
+    <script>
+    $(document).ready(function () {
+        $("#tbl").DataTable();
+    });
+    </script>
+  }
